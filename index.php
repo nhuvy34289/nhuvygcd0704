@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <a href="ConnectToDB.php">CONNECT TO DATABASE</a>
+    <a href="InsertData.php">INSERT DATA</a>
+    <a href="DeleteData.php">DELETE DATA</a>
+    <a href="UpdateData.php">UPDATE DATA</a>
 </head>
 
 <body>
