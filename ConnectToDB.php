@@ -57,7 +57,7 @@ echo '<p>Customers informmations</p>';
    
       <tr>
         <td scope="row"><?php echo $row['customerid'] ?></td>
-        <td><?php echo $row['Customername'] ?></td>
+        <td><?php echo $row['customername'] ?></td>
         <td><?php echo $row['diachi'] ?></td>
         <td><?php echo $row['dienthoai'] ?></td>
         
