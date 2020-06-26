@@ -56,10 +56,10 @@ echo '<p>Customers informmations</p>';
       ?>
    
       <tr>
-        <td scope="row"><?php echo $row['stuid'] ?></td>
-        <td><?php echo $row['fname'] ?></td>
-        <td><?php echo $row['email'] ?></td>
-        <td><?php echo $row['classname'] ?></td>
+        <td scope="row"><?php echo $row['CustomerID'] ?></td>
+        <td><?php echo $row['CustomerName'] ?></td>
+        <td><?php echo $row['CustomerPhone'] ?></td>
+        <td><?php echo $row['CustomerEmail'] ?></td>
         
       </tr>
      
