@@ -6,7 +6,7 @@
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "Hello Cloud computing class 0704!";
 ?>
 
 <?php
@@ -29,23 +29,23 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM student ORDER BY stuid";
+$sql = "SELECT * FROM customers";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>Students information:</p>';
+echo '<p>Customers informmations</p>';
 
 ?>
 <div id="container">
 <table class="table table-bordered table-condensed">
     <thead>
       <tr>
-        <th>Student ID</th>
-        <th>Name</th>
-        <th>email</th>
-        <th>Class</th>
+        <th>CustomerID</th>
+        <th>CustomerName</th>
+        <th>CustomerPhone</th>
+        <th>CustomerEmail</th>
       </tr>
     </thead>
     <tbody>
